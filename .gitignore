@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Node
+node_modules/
+.vite/
+dist/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Large Model Files (Optional: remove if you want to push small h5 files)
+# ml/spam_model.h5
+# ml/tokenizer.pkl

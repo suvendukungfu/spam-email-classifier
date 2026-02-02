@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+tensorflow
+pydantic
+numpy
+pickle5; python_version < "3.8"
