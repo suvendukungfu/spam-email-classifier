@@ -1,5 +1,6 @@
 # 📧 AI-Powered Spam Email Classifier
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/suvendukungfu/spam-email-classifier)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green)

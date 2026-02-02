@@ -59,6 +59,14 @@ def main():
     st.markdown("### Intelligent Email Classification System")
     st.write("Enter an email or SMS message below to check if it's **Spam** or **Ham**.")
 
+    # Sidebar
+    with st.sidebar:
+        st.header("About")
+        st.write("This AI uses a Bidirectional LSTM network trained on the SMS Spam Collection dataset.")
+        st.markdown("---")
+        st.markdown("[![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?logo=github)](https://github.com/suvendukungfu/spam-email-classifier)")
+        st.markdown("Created by **Suvendu Sahoo**")
+
     # Load Model
     model, tokenizer = load_resources()
 
