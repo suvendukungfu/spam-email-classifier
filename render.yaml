@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: spam-classifier-backend
+    env: docker
+    dockerContext: .
+    dockerfilePath: backend/Dockerfile
+    plan: free
+    healthCheckPath: /
+    autoDeploy: true
