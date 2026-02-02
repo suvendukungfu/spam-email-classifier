@@ -1,10 +1,21 @@
 import streamlit as st
-import tensorflow as tf
-import pickle
-import numpy as np
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-import re
 import os
+
+# Debugging: Print current directory and files (check logs)
+print("Current Directory:", os.getcwd())
+print("Files:", os.listdir())
+if os.path.exists("ml"):
+    print("ML Directory:", os.listdir("ml"))
+
+try:
+    import tensorflow as tf
+    import pickle
+    import numpy as np
+    from tensorflow.keras.preprocessing.sequence import pad_sequences
+    import re
+except Exception as e:
+    st.error(f"Failed to import dependencies: {e}")
+    st.stop()
 
 # Configuration
 MODEL_PATH = "ml/spam_model.h5"
