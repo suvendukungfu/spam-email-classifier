@@ -1,4 +1,4 @@
-# 📧 AI-Powered Spam Email Classifier
+# AI-Powered Spam Email Classifier
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/suvendukungfu/spam-email-classifier)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -10,7 +10,7 @@ A production-grade, end-to-end Machine Learning system that classifies emails as
 
 ---
 
-## 🚀 Features
+##  Features
 
 -   **Deep Learning Model**: Bidirectional LSTM network achieving **98%+ accuracy** on the SMS Spam Collection dataset.
 -   **Real-time Inference**: REST API built with FastAPI serving predictions in milliseconds.
@@ -19,7 +19,7 @@ A production-grade, end-to-end Machine Learning system that classifies emails as
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 graph LR
@@ -42,7 +42,7 @@ graph LR
 
 ---
 
-## 🏃‍♂️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 -   Python 3.10+
@@ -79,7 +79,7 @@ npm run dev
 
 ---
 
-## 📄 Resume / Interview Guide
+##  Resume / Interview Guide
 
 **Project Title**: End-to-End Spam Email Classification System
 
@@ -91,7 +91,7 @@ npm run dev
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 -   [ ] Dockerize the application for containerized deployment.
 -   [ ] Add user feedback loop to retrain model on misclassified examples.
